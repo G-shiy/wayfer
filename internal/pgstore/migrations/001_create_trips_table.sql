@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS(
+CREATE TABLE IF NOT EXISTS trips(
     "id"    uuid   PRIMARY KEY    NOT NULL    DEFAULT gen_random_uuid(),
     "destination"   VARCHAR(255)                NOT NULL,
     "owner_email"   VARCHAR(255)                NOT NULL,
