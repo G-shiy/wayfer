@@ -18,7 +18,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Println("Running application...")
+	fmt.Println("Finishing application")
 }
 
 func run(ctx context.Context) error {
